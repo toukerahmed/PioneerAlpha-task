@@ -1,5 +1,5 @@
 import "./App.css";
-import { Body, Header, About } from "./Components";
+import { Header, About } from "./Components";
 
 const App = () => {
   return (

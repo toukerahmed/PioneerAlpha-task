@@ -34,9 +34,38 @@
     padding: 0 30px;
   }
   .about-cover {
-    grid-template-columns: 40px 40px 40px;
+    grid-template-columns: 60px 60px 60px;
     gap: 5px;
     margin-top: 20px;
+    margin-left: 40px;
+  }
+  .about-cover img {
+    width: 80%;
+  }
+  .about-cover img:nth-child(2) {
+    margin-top: 30px;
+  }
+  .about-cover img:nth-child(3) {
+    margin-top: 60px;
+  }
+  .about-details .title {
+    font-size: 24px;
+  }
+  .about-details p {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 60px) and (max-width: 430px) {
+  .about-section {
+    margin-top: 50px;
+    padding: 0 30px;
+  }
+  .about-cover {
+    grid-template-columns: 35px 35px 35px;
+    gap: 5px;
+    margin-top: 20px;
+    align-items: center;
   }
   .about-cover img {
     width: 80%;

@@ -86,3 +86,46 @@
     border-bottom: none;
   }
 }
+
+/**===============**/
+
+@media only screen and (max-width: 900px) {
+  .bg-img {
+    background-position-x: 0px;
+  }
+  .icon-bar {
+    display: inline-block;
+    position: absolute;
+    height: 41px;
+    width: 48px;
+    background: url("./icon-bar.png");
+    background-size: contain;
+    top: 10px;
+    right: 10px;
+    z-index: 1;
+  }
+  .icon-bar.cross-bar {
+    background: url("./cross-bar.png");
+  }
+  .header-container .menu {
+    height: auto;
+    width: 200px;
+    background: #fbf6f6;
+    right: -200px;
+    top: 51px;
+    z-index: 2;
+    transition: all 0.2s ease-in-out;
+  }
+  .header-container .menu.open {
+    right: 0;
+  }
+  .header-container .menu a {
+    display: block;
+    padding: 15px 0;
+    text-align: center;
+    border-bottom: 1px solid #0a0a0a;
+  }
+  .header-container .menu a:last-child {
+    border-bottom: none;
+  }
+}
