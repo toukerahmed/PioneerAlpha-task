@@ -1,0 +1,39 @@
+.slider-container {
+  width: 80%;
+  margin: 0 auto;
+}
+.slick-prev {
+  left: -45px;
+}
+.slick-next {
+  right: 45px;
+}
+.slider-btn {
+  padding: 4px 12px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  border: 1px solid #c10303;
+  border-radius: 15px;
+  text-decoration: none;
+  color: #000000;
+}
+
+/**
+======MOBILE RESPONSIVE=======
+**/
+
+@media only screen and (max-width: 768px) {
+  .slider-title {
+    font-size: 14px;
+  }
+  .slider-content {
+    font-size: 12px;
+  }
+  .slick-prev {
+    left: -30px;
+  }
+  .slick-next {
+    left: 310px;
+  }
+}
